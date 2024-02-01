@@ -1,0 +1,29 @@
+// Search ranges and rules file
+// ****************************
+
+[PARAMETERS]
+//#isInt? #name   #dist.#min  #max 
+//all Ns are in number of haploid individuals
+1  $NPOP0$	unif	1e2	1e6	output
+1  $NPOP1$	unif	1e2	1e6	output
+1  $NPOP2$	unif	1e2	1e6	output
+1  $NPOP3$	unif	1e2	1e6	output
+1  $NCHG0$	unif	1	1e6	output
+1  $NCHG1$	unif	1	1e6	output
+1  $NCHG2$	unif	1	1e6	output
+1  $NCHG3$	unif	1	1e6	output
+1  $NPOP01$	unif	1	1e6	output
+1  $NPOP23$	unif	1	1e6	output
+1  $NANC$	unif	1	1e6	output
+1  $TDIV$	unif	1e2	1e6	output
+1  $TDIV01$	unif	1e2	$TDIV$	output paramInRange
+1  $TDIV23$	unif	1e2	$TDIV$	output paramInRange
+1  $TCHG0$	unif	1	$TDIV01$	output paramInRange
+1  $TCHG1$	unif	1	$TDIV01$	output paramInRange
+1  $TCHG2$	unif	1	$TDIV23$	output paramInRange
+1  $TCHG3$	unif	1	$TDIV23$	output paramInRange
+0  $MIG02$	logunif	1e-21	1e-3	output  
+0  $MIG20$	logunif	1e-21	1e-3	output
+
+[COMPLEX PARAMETERS]
+
