@@ -1,8 +1,8 @@
-# Alloteropis_semialata_demography
+# Alloteropsis_semialata_demography
 
 This repository contains the scripts used for data analyses and visualisation in the following paper: 
 
-Sotelo G, Gamboa S, Dunning LT, Christin P-A, Varela S (xxxx). C4 photosynthesis provided an immediate demographic advantage to populations of the grass Alloteropsis semialata. New Phytologist xx: xx-xx
+Sotelo G, Gamboa S, Dunning LT, Christin P-A, Varela S (xxxx). C4 photosynthesis provided an immediate demographic advantage to populations of the grass Alloteropsis semialata.
 
 ## Niche and demographic analyses (analyses folder)
 Script 00 corresponds to the ecological niche analyses
