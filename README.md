@@ -2,7 +2,7 @@
 
 This repository contains the scripts used for data analyses and visualisation in the following paper: 
 
-Sotelo G, Gamboa S, Dunning LT, Christin P-A, Varela S (xxxx). C4 photosynthesis provided an immediate demographic advantage to populations of the grass *Alloteropsis semialata*.
+Sotelo G, Gamboa S, Dunning LT, Christin P-A, Varela S (2024). C<sub>4</sub> photosynthesis provided an immediate demographic advantage to populations of the grass *Alloteropsis semialata*. *New Phytologist* <http://doi.org/10.1111/nph.19606>
 
 ## Niche and demographic analyses (analyses folder)
 - Script 00 corresponds to the ecological niche analyses
@@ -18,4 +18,4 @@ The remaining scripts correspond to the demographic analyses. The specifications
 ## Data visualisation (plots folder)
 All figures were generated under R version 4.2.2
 
-The figures from the paper that are not included in this folder were done with inkscape (<https://inkscape.org/>)
+The figures from the paper that are not included in this folder were done with [inkscape](https://inkscape.org/)
